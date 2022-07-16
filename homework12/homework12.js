@@ -5,7 +5,7 @@ function music(id) {
     let searchAudio = document.getElementById(id);
     let audios = document.getElementsByTagName('audio');
     for (let i = 0; i < audios.length; i++) {
-        audios[i] = searchAudio.target ? audios[i].load() : 0;
+        audios[i] != searchAudio.target ? audios[i].load() : 0;
     }
     searchAudio.currentTime = 0;
     searchAudio.play();
