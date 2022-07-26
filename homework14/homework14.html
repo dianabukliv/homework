@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Робота з сервером</title>
+   <link rel="stylesheet" href="homework14.css">
+</head>
+
+<body>
+
+    <div id="loader" class="dis">
+        <div class="loader-inner">
+            <div class="loader-line-wrap">
+                <div class= "loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+                <div class= "loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+                <div class= "loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+                <div class= "loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+                <div class= "loader-line"></div>
+            </div>    
+        </div>
+     </div>
+     <header class="header">
+         <form action="get">
+             <label> Вкажіть частину :</label>
+             <input id="getPart" type="text" name="name" placeholder="Введіть від 1 до 6" class="btn">
+         </form>
+            <button class="btn" id="btnGetInfo"> Get Info </button>
+            <button class="btn" id="btnGetPlanet"> Get Planet </button>
+            <button class="btn" id="btnPrevious"> Previous </button>
+            <button class="btn" id="btnNext"> Next </button>
+            
+     </header>
+     <div class="mainDivInfo"></div>
+   <script src="homework14.js"></script>
+</body>
+
+</html>
